@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <form action="blogadd.php" method="post">
+        <fieldset>
+            <label>Enter the title of your blog (max 25 charactrers): </label>
+            <input type="text" maxlength="25" id="blogtitle" name="title">
+            <label>Please enter your post (max 255 charactrers)</label>
+            <input type="text" maxlength="255" id="blogbody" name="body">
+            <br>
+            <br>
+            <input type="submit" class="rounded" value="Post" id="submitpost">
+            <input type="button" value="Clear Form" class="rounded" id="clearform" >
+            </legend>
+        </fieldset>
+    </form>
+    <form action="logout.php">
+        <input type="submit">
+    </form>
+    <script src="blogpost.js"></script>
+</body>
+</html>

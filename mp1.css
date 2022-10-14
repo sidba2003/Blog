@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+    color: green;
+}
+
+p{
+    text-align: center;
+    font-size: medium;
+    color: green;
+}
+
+#first{
+    text-align: center;
+    color: aquamarine;
+}
+
+#first h1{
+    color: aquamarine;
+    font-size: 30pt;
+}
+
+#first li{
+    font-size: x-large;
+    padding-left: 5em;
+}
+
+#aboutme, #aboutme p{
+    text-align: center;
+    color: black;
+    background-color: grey;
+}
+
+#aboutme h2{
+    color: greenyellow;
+    font-size: 25pt;
+}
+
+#aboutme p{
+    font-size: 15pt;
+    color: bisque;
+}
+
+figcaption{
+    background-color: aqua;
+    color: black;
+}
+
+#experience{
+    text-align: center;
+    font-size: 15pt;
+    color: chartreuse;
+    background-color: crimson;
+}
+
+#experience h2{
+    color: black;
+    font-size: 25pt;
+}
+
+#experience table{
+    text-align: center;
+    padding-right: 30em;
+    padding-left: 30em;
+}
+
+#experience th{
+    border: solid black;
+}
+
+#skills{
+    background-color: forestgreen;
+    text-align: center;
+    color: blue;
+}
+
+#skills h2{
+    background-color: darkkhaki;
+    font-size: 25pt;
+    color: darkmagenta;
+}
+
+#skills li{
+    font-size: 15pt;
+}
+
+#education{
+    text-align: center;
+    background-color: darkseagreen;
+    color: slateblue;
+}
+
+#education h2{
+    font-size: 25pt;
+    color: yellow;
+}
+
+#education table{
+    text-align: center;
+    padding-left: 30em;
+    padding-right: 30em;
+}
+
+#education td{
+    font-size: 15pt;
+    text-align: center;
+}
+
+#blog{
+    text-align: center;
+    background-color: salmon;
+}
+
+#blog h2{
+    font-size: 25pt;
+    color: violet;
+}
+
+#footer{
+    background-color:violet;
+    text-align: center;
+}
+
+#footer p{
+    color: black;
+    font-size: 15pt;
+}
